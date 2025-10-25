@@ -10,6 +10,10 @@ def about(request):
     context = {}
     return render(request,'myapp/about.html',context)
 
+def contact(request):
+    context = {}
+    return render(request,'myapp/contact.html',context)
+
 # def memorandums(request):
 #     context = {}
 #     return render(request,'myapp/memorandums.html',context)
