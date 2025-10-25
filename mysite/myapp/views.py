@@ -10,9 +10,9 @@ def about(request):
     context = {}
     return render(request,'myapp/about.html',context)
 
-def memorandums(request):
-    context = {}
-    return render(request,'myapp/memorandums.html',context)
+# def memorandums(request):
+#     context = {}
+#     return render(request,'myapp/memorandums.html',context)
 
 # sudo apt update
 # sudo apt install git-lfs -y
